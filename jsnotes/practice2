@@ -1,0 +1,153 @@
+Doubt Session Code  - Function
+// Functions - When we need to a block of code multiple times,
+//  we can define a function and call it multiple times.
+
+
+
+// Functions - Write Onces and Use Multiple Times
+
+// function functionName(){
+//     // code
+// }
+
+// function printHello(message){  // Function Declaration
+//     // Function Body
+//     // return "Hello";  // stop the function execution and return the value
+//     // console.log(message)
+//     return "World" + message; 
+   
+// }
+
+// const result = printHello(6);  // Function Call, Invoke
+// console.log(result);  // undefined
+
+// Every function in JavaScript should return a value and returns undefined by default.
+
+
+// module.exports = printHello;  // Exporting the function printHello
+
+// This is the import code  - create a new file and add these two lines.
+// const hello = require("./doubts3.js");
+
+// hello();  // Function Call, Invoke
+
+// Functions = First Class Citizens
+
+// Functions can be assigned to variables
+
+
+
+// let total = addTwoNumbers;
+// console.log(total(2, 3));
+
+// function addTwoNumbers(a, b){
+//     return a + b;
+// }
+
+// let add = addTwoNumbers;  
+// console.log(add(2, 3));
+
+
+// let sub = addTwoNumbers;
+// console.log(sub(5, 3));
+
+// let multiply = addTwoNumbers;
+// console.log(multiply(2, 3));
+
+// Functions can be passed as arguments to other functions
+
+// function hello(greet){
+//     greet();  // greet = message (function)
+//     console.log("Hello");
+// }
+
+// function message(){
+//     console.log("Good Night");
+// }
+
+// hello(message);  //hello - HOF, message - Callback Function
+
+// HOF - Higher Order Function - Jo dusre function ko argument me leta hai ya return karta hai
+// Callback Function- Jo function dusre function ke argument me pass hota hai
+
+// Functions can be returned from other functions
+
+// function hello(){
+//     function printName(){
+//         return "So gaya aasamaan"
+//     }
+//    return printName
+// }
+
+// const add  = hello();   
+
+// console.log(add());
+
+// Types of Functions
+//  Function Declaration
+//  Anonymous Function
+//  Function Expression
+//  IIFE - Immediately Invoked Function Expression
+
+// Anonymous Function - A function without a name is called an anonymous function.
+
+// function(){
+//     console.log("Hello , I am anonymous function");
+// }
+
+// Function Expression - 
+// A function expression is a function that is assigned to a variable.
+
+// let printMessage = function(){
+//     console.log("Hello , I am anonymous function");
+// }
+
+// printMessage();
+
+// IIFE - Immediately Invoked Function Expression
+// A function that is invoked immediately after its creation.
+
+// (function(){
+//     console.log("IIFE")
+// }());
+
+// Arrow Function -
+// Arrow Function - A shorter syntax for writing function expressions.
+
+// let print = function(){
+//     console.log("I am a function");
+// }
+
+// let print = ()=>{
+//     console.log("I am a function");``
+// }
+
+// let print = ()=> console.log("I am a function");
+
+// print();
+
+// let addTwoNumbers = (a, b)=>{
+//     return a + b;
+// }
+
+// let addTwoNumbers = (a, b)=> a + b  // return likhne ki jarurat nahi hai, curly braces ki jarurat nahi hai   
+
+// console.log(addTwoNumbers(4,6))
+
+// let subtract = (a, b)=> a - b;
+
+// console.log(subtract(10, 5));
+
+//default parameters
+
+// function print(message = "Hello", a , b){
+//     return message + " " + a + " " + b;
+// }
+
+// console.log(print("Hiii", "Jhon" , "Punam" ,"Mahima", "Vanashri", "Nikita"));
+
+// function addToCart(a,...b){
+//     console.log(a + b) 
+// }
+
+// addToCart(1,2,3,4);

@@ -1,0 +1,54 @@
+1) what is javascript:-
+
+JavaScript's most popular use is for web development
+Developers use JavaScript in web development to add interactivity 
+and features to improve the user experience 
+
+2)  who use javascript:--
+Programmers traditionally use JavaScript for front-end web development. This scripting language that used to manages client-side interactions within web browsers. However, companies like Netflix and Uber build server-side applications with Node. js, a popular JavaScript framework
+
+3) 
+React is a JavaScript library that's used for building reactive websites. While it's not a framework, React does have a dedicated framework called Create React App that can be used to build web applications.
+
+4) js libraries:--
+A library is a collection of ready-made code that developers can use to solve common problems without having to write everything from scratch.
+React
+jQuery
+Lodash
+D3.js
+Moment.js
+Axios
+Redux
+A library is a collection of reusable code for specific functions or tasks. You control the flow of the application and call the library when needed.
+
+A framework provides a complete predefined structure and set of tools for building applications. It dictates the architecture and flow, calling your code at certain points.
+
+5) framework:---
+Angular
+Next.js
+
+
+
+6) what is node.js:--
+Node.js is neither a library nor a framework; it's a runtime environment for executing JavaScript code outside of a web browser. Node.js uses the V8 JavaScript engine, the same engine that powers Google Chrome, to execute JavaScript code on the server-side.
+
+7) construction function and new keward:--
+ In JavaScript, any function can act as a constructor function if you use it with the new keyword to create instances of objects
+ ex new Array() , new Object(), new Regex(), new 
+ const myArray = new Array(1, 2, 3);
+const myFunction = new Function('a', 'b', 'return a + b');
+const myObject = new Object();
+const today = new Date();
+const pattern = new RegExp('\\w+');
+const error = new Error('Something went wrong');
+
+
+20) RegEx:---
+RegEx, or Regular Expressions, in JavaScript (and other programming languages) are patterns used to match character combinations in strings. In the context of the DOM (Document Object Model), regular expressions can be very useful for tasks such as searching, replacing, and validating text within HTML elements or input fields.
+Basic Syntax of Regular Expressions:---
+Literals: Characters to match exactly, e.g., /abc/ matches "abc".
+Meta-characters: Symbols with special meanings, e.g., \d for digits, \w for word characters.
+Quantifiers: Specify how many times a character or group should be matched, e.g., * for 0 or more, + for 1 or more, {n} for exactly n times.
+Character Classes: Sets of characters to match, e.g., [a-z] for any lowercase letter.
+Anchors: Indicate the position in the string, e.g., ^ for start of string, $ for end of string.
+Groups and Ranges: Grouping parts of patterns, e.g., (abc), or specifying ranges, e.g., [0-9].

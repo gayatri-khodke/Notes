@@ -1,0 +1,287 @@
+why we need object.create() method?
+The Object. create() method creates a new object using an existing object as the prototype of the newly created object. This allows you to create an object with a specific prototype
+and optionally add properties to it.12 Jul 2024
+
+what is first class cityzen object in js?
+n JavaScript, a First Class Citizen is an entity that can be assigned to a variable, passed as an argument to a function, returned from a function, and has properties and methods assigned to it.19 Ju
+
+what is promise?
+In JavaScript, a Promise is an object that will produce a single value some time in the future.
+
+In JavaScript, asynchronous refers to the execution of tasks that allows the program to continue running other operations while waiting for the task to complete. This is useful for operations that take time, like fetching data from a server, without blocking the rest of the code from running.
+
+
+what is api?
+An API (Application Programming Interface) is a way for different software applications to communicate with each other. It's like a bridge that allows one program to talk to another, sharing data and functionality.
+
+what is coercion ?
+coercion is the process of converting a value from one type to another. such as from a string to number or number to boolean. coercion can be either implicit or explicit.
+implicit coercion:- let result = '5' - 2; // result is 3, '5' is implicitly converted to a number
+
+
+explicit coercion:-let num = Number('5'); // Explicitly converting a string to a number
+
+what is fetch api
+what is spa
+what is asynchronour programming 
+what is promises
+what is react and why it used 
+what is localstorage and session storage
+what is clouser 
+what is lexcial environment 
+what is props 
+what  is props drelling
+what is state 
+what is jsx in react 
+what are hooks in react
+what is dom
+what is virtual dom
+what is callback 
+what is controlled and uncontrolled component in react
+what is stateful and stateless component 
+what is contextapi in react 
+what is execution context
+what is callstack 
+what is usestate
+what is pesudo classes and pesudo element
+what is react router
+what is purpose of useReducer 
+what is usrRef hook 
+what is the used of keyprops and why it is important 
+what is flexbox and when we used it
+different between flex and greed layout
+what is the purpose of z-index and how used it
+what is doctype and why we used it 
+what is sementic element 
+different between pesudo class and pesudo element in css
+what is purpose of viewport meta tag in html
+what is async and defer attribute in script tag
+different between null and undefine
+different between margin and padding
+what is this keyward in js
+what is prototype
+what is prototype chain 
+what is react router 
+purpuse of useReducer 
+how many type popup box is there in js
+what is importatn attribute in css
+what is async and await 
+how to handle error in js
+different between map and filter 
+
+
+
+controlled component?
+component that are not handle using state those component which are directly handled through js and useref in react 
+
+
+Math.ceil() and Math.floor() are methods in JavaScript for rounding numbers:
+Math.ceil(): Rounds a number up to the nearest integer.
+Example: Math.ceil(4.2) returns 5.
+Math.floor(): Rounds a number down to the nearest integer.
+Example: Math.floor(4.7) returns 4.
+
+Here are some simple features of JavaScript:
+Interactive Webpages: Makes websites respond to clicks and typing.
+Async Tasks: Can handle tasks in the background without freezing the page.
+Flexible Data: Works with different types of information (like numbers and text).
+Browser-Based: Runs directly in web browsers like Chrome or Firefox.
+Event Handling: Reacts to user actions like button clicks.
+In short: JavaScript adds interactivity, handles tasks in the background, and runs in your web browser.
+
+
+
+Here’s another simple comparison:
+JavaScript:
+Runs in: Web browsers.
+Purpose: Makes websites dynamic and interactive.
+Usage: Web development, client-side scripts.
+
+Java:
+Runs in: Various environments (servers, desktops, Android).
+Purpose: Builds standalone applications and large systems.
+Usage: Software development, server-side apps.
+In short: JavaScript is for making web pages interactive, while Java is for building larger applications.
+
+async and defer:-
+async: Loads and executes the script as soon as it's downloaded, without waiting for HTML rendering.
+defer: Loads the script in the background but waits to execute it until after the HTML is fully rendered.
+
+
+what is template literal?
+allow us to write multiline string with new feature in comparison to the normal string.
+Template literals allow for easy string interpolation, multi-line strings, and embedding expressions directly within strings.
+
+
+what is object prototypes?
+Object prototypes in JavaScript are the mechanism that allows objects to inherit properties and methods from other objects. Each object has a prototype from which it can inherit properties and methods.
+Key Points:
+Inheritance: Objects can inherit features from their prototypes.
+const person = { greet: function() { console.log('Hello!'); } };
+const alice = Object.create(person); // alice inherits from person
+alice.greet(); // Outputs: Hello!
+Prototype Chain: When accessing a property, JavaScript looks up the prototype chain if the property is not found in the object itself.
+Modification: Changing a prototype affects all objects that inherit from it.
+In short: Object prototypes allow objects to inherit properties and methods from other objects, forming a prototype chain.
+
+
+what is event listners?
+event listners is the way to do some action base on the user's interaction for ex. user click on button or write text in input filed . event listner will wait for the action and trigger particular funcion.
+
+different type of event listners:
+1) Mouse Events:
+click: Triggered when an element is clicked.
+dblclick: Triggered when an element is double-clicked.
+mousedown: Triggered when the mouse button is pressed down on an element.
+mouseup: Triggered when the mouse button is released over an element.
+mouseover: Triggered when the mouse pointer enters an element.
+mouseout: Triggered when the mouse pointer leaves an element.
+mouseleave: Triggered when the mouse pointer leaves an element(does not bubble).
+
+different between mouseout and mouseleave event?
+mouseout: Triggers when the mouse pointer leaves an element or any of its child elements.
+mouseleave: Triggers only when the mouse pointer leaves the element itself, not its child elements.
+
+
+2) Keyboard Events:
+keydown: Triggered when a key is pressed down.
+keyup: Triggered when a key is released.
+keypress: Triggered when a key is pressed down and released (deprecated).
+
+3)Form Events:
+submit: Triggered when a form is submitted.
+change: Triggered when the value of an input, select, or textarea changes.
+input: Triggered every time the value of an input changes.
+focus: Triggered when an element gains focus.
+blur: Triggered when an element loses focus.
+
+4) Window Events:
+load: Triggered when the whole page has loaded.
+resize: Triggered when the window is resized.
+scroll: Triggered when the user scrolls the page.
+
+different between keypress and keydown event?
+keydown: Happens when any key is pressed. including special keywards, shift, ctrl, alt.
+keypress: Happens when a character key is pressed (but is outdated). do not work with special keys shidt ctrl atl.
+
+what is http?
+http hyper text transfer protocal
+in http requests basically sent request from clien side to server side to perform some action  or retrive some information from server.
+
+Yes, HTTP is a protocol. It stands for Hypertext Transfer Protocol and it is a set of rules for how data is sent and received over the web. It helps your browser and web servers communicate with each other to load web pages.
+
+http requests follows one standerd format in which there are some important elements.
+
+1) request line :- http method tell which type of action user want to perform. ex get,post,put,delete.
+
+
+web applications can communicate with server with the help of these http requests.
+
+scripting languages are programming language. and programming language  has ability to write
+script code.
+ 
+scripting language is a searise of commends which runs line by line on the runtime.
+ but programming language required to compilation before running.
+
+scripting languages do not required to compolation
+
+
+scripting languaes desine to integrate and communicae with other programming languages.
+
+scripting lang are used in web dovelopment to create dinamic web application.
+js python node.js are scripting languages.
+
+
+client side and server side is web dovelopment term. that decide how to run our web application code and wherer it will run. it will run on our browser or server.
+browsers are like firefox, chrome mozila firefox.
+
+server is a collection of huge date. where data is stored in hard disk 
+
+
+
+types of programming languages:-
+high level 👎 :- 
+1) procedural 👎:-
+follows the top down approach 
+data is not secure
+reuse difficult
+
+program is written as sequence of instructions
+2) object oriented:-
+bottom up approach 
+helps in wrapping data and functions in a class
+help to building secure programs.
+
+low leverl:- 
+1) assembly language
+2)machine language
+it contains series of bits like 0 and 1 that machine can understand
+
+
+
+
+what is prototype ?
+Prototypes are the mechanism by which JavaScript objects inherit features from one another. 
+Every object in JavaScript has a built-in property, which is called its prototype. The prototype is itself an object, so the prototype will have its own prototype, making what's called a prototype chain. The chain ends when we reach a prototype that has null for its own prototype.
+
+
+ differences between ease, linear, and ease-in-out transition timing functions in CSS:
+ 
+Ease: Starts slow, speeds up, then slows down.
+Linear: Maintains a constant speed throughout.
+Ease-in-out: Starts slow, speeds up in the middle, then slows down at the end.
+
+bom?
+
+bom is used to interact with the browser
+bom contains the objects:-window,location,history,
+
+window object is the global object of our browser. is support to the all modern browsers.
+
+window object represent the browser window.
+window object is created automatically by the browser.
+
+window object has some methods:-
+window.open()
+window.close()
+window.alert()
+widnow.prompt()
+window.
+
+Yes, the window object belongs to the Browser Object Model (BOM). The BOM consists of objects that provide methods and properties to interact with the browser, and the window object is the global object representing the browser window. It includes properties such as document, location, history, and navigator, which are all part of the BOM and allow for controlling and interacting with the browser environment.
+
+
+dom vs document?
+dom is document object model it represent our htm page as tree like structure. 
+
+ The document is a property of the window object 
+
+document object: The document object is a tool provided by the browser that lets you interact with the DOM. You can use it to find elements, change their content, add new elements, and more.
+
+The document object provides various methods and properties to access and manipulate the DOM. For example, you can use document.getElementById(), document.querySelector(), document.createElement(), and many others to interact with the elements of the web page.
+
+
+
+what is polyfill ?
+a piece of code, usually written in JavaScript, that allow the new functianality  and modern feature in older browsers.
+
+
+what is clouser?
+a function having access to the parent scope, even after the parent function has closed.
+
+
+clousere is means innere function has access of the variables that has declared in outer funciton . innere function has access of these variables even after that outer funciton finish its execution.
+
+
+
+ Memoization is an optimization technique used to speed up computer programs by caching the results of expensive function calls and returning ...
+
+
+
+
+
+
+
+
+
+

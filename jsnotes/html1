@@ -1,0 +1,153 @@
+1) What is the DOCTYPE declaration and why is it important?
+Answer: The DOCTYPE declaration is an instruction that tells the web browser which version of HTML the page is written in.
+It helps ensure that the browser renders the page in standards-compliant mode rather than quirks mode. For example:
+
+2)Explain the async and defer attributes of the <script> tag.
+Answer: The async and defer attributes are used to control the execution of JavaScript.
+
+
+object-fit property 
+The CSS object-fit property is used to specify how an <img> or <video> should be resized to fit its container.
+
+The object-fit property in CSS is used to specify how an image or video should fit into its container. Think of it like telling the image or video how to behave if it doesn’t perfectly match the container's size. Here are its main values explained simply:
+
+fill: The image or video will stretch to fill the entire container, even if it means changing its aspect ratio (could look squished or stretched).
+
+contain: The image or video will resize to fit inside the container, keeping its aspect ratio (no squishing). There might be empty space around it if the container and the image/video have different shapes.
+
+cover: The image or video will resize to cover the entire container, keeping its aspect ratio. Some parts might get cropped off if the container and the image/video have different shapes.
+
+none: The image or video will not be resized at all. It will be displayed in its original size, which might overflow the container.
+
+scale-down: The image or video will either be displayed at its original size or scaled down to fit the container, whichever makes it smaller.
+
+
+what is web storage?
+The Web Storage is one of the great features of HTML5. With the Web Storage feature, web applications can locally store data within the browser on the client side. It stores data in the form of key/value pair on the browser. Web Storage sometimes also known as DOM storage.
+Storing data with the help of web storage is similar to cookies, but it is better and faster than cookies storage.
+
+In compared to cookies Web Storage has Following Advantages:---
+It will not send data to the server side, hence it is faster than cookies storage.
+The data stored by local Storage never expires, but cookies data expires after some time or session.
+Web Storage is more secure than cookies.
+
+
+what is cookies?
+Cookies are small pieces of data stored by the browser that websites use to remember information,or interaction about the user. They are sent to the server with each HTTP request and can be used for a variety of purposes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

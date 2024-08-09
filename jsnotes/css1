@@ -1,0 +1,175 @@
+1) what is css?
+css stand for cascading style sheet . that used to style to our html page.
+
+
+2) what is Cascading in CSS ?
+* cascading in css means deciding which styles to apply when there are multiple styles for the same element.
+* "Cascading" in CSS refers to the process of combining multiple stylesheets and rules to determine the final appearance of elements. It involves specificity, inheritance, and the order of rules to resolve conflicts and apply the appropriate styles.
+
+3) what is important attribute in css ?
+The !important attribute in CSS is used to make sure a style is applied to the elements no matter what that element has highest specificity or not. 
+
+4) Using the same id more than once causes:
+* JavaScript Issues: Functions like document.getElementById() only get the first element with that id.
+* CSS Problems: Styles are applied only to the first element with that id, ignoring others.
+
+5) what is em and rem ?
+* em:- em is relative tothe font-size of its direct or nearest parent.
+by default 1em = 16px;
+if we define 10px to the parent element and used em to its child element then 1em=10px; because em is relative to ists nearest parent. 
+
+* rem:- rem is only relative to the html root font-size
+if we define html root element font-size as a 20px then 1rem equal to 20px; because rem is relative to the html root font-size;
+by default root element font size is 16px; 
+
+6) when we used em and rem ?
+used em when we need to give different different font size to relative to is nearest parent.
+
+used rem when we need to give same font size that is relative to our root html element. 
+
+7) what is vw and vh?
+what is viewport ?
+viewport width and height means height and width of our browser window.
+1vw=1% of our browser window.
+1vh= 1% of our browser hight.
+
+these units are useful for creating responsive design that adjust based on the size of the browser window.
+vw and vh are relative to browser window.
+
+% percentage unit are relative to its parent element. 
+% depends on the parent element while vh and vw depends on browser window.
+
+what is px?
+pixels is an absolute unit. one pixel is the smallest unit of display on a screen.
+px is not responsive unit. it provides a fixed size that does not adjust base on the viewport size. 
+for responsive disign used unit like %, em, rem, vh, vw. these unit adjust according to the size of the viewport or parent element . 
+
+what is box-sizing?
+box-sizing in css define how the total width and height of an element are calculated.
+
+figure tag vs img tag?
+figure tag is provided by html5
+figure tag allow us to give title to our img tag
+using figure figcaption we can give titel to image
+it is helpful for search engine optimization. when we define any title to our image usning figure element. whenever user search any result which is similar to our image title then this search engine will show our image as a output on browser.
+
+what is picture tag?
+when we need to display different different image on different screen size where we can used picture tag.
+using img tag we can display only one image on our page.
+
+syntax:-
+<!-- <picture>
+  <source media="(max-width:1000px)" srcset="image.webp" type="image/webp">
+  <source media="(max-width:500px;)" srcset="image.jpg" type="image/jpeg">
+  <img src="fallback.jpg" alt="Description of the image">
+</picture> -->
+
+
+
+3) what is !important attribute in css
+The !important rule in CSS is used to add more importance to a property/value than normal.
+In fact, if you use the !important rule, it will override ALL previous styling rules for that specific property on that element!
+
+what is viewport ? and how to set it?
+The viewport is the visible area of a web page on a device's screen browser screen.
+To set the viewport, you use the <meta> tag in the HTML <head> section. Here's a simple way to do it:
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+what is the media query?
+Media queries are used in CSS to apply different styles based on the user's device characteristics, such as screen size. This makes your website responsive, meaning it looks good on various devices (phones, tablets, desktops).
+
+different between link tag and a?
+<link>: For linking to external resources like stylesheets or icons.
+<a>: For creating clickable links to navigate to other pages or resources.
+
+
+Yes, you can use the <figure> tag without the <img> tag. The <figure> element can contain other types of content, such as videos, diagrams, or even plain text. While the most common use of <figure> is with <img>, it can also be useful for other media or content types.
+<figure>
+  <!-- Image -->
+  <img src="image.jpg" alt="A scenic view">
+
+  <!-- Video -->
+  <video controls>
+    <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Plain Text -->
+  <p>This is a description of the media content.</p>
+
+  <!-- Caption -->
+  <figcaption>
+    A scenic view and a video demonstrating the same location.
+  </figcaption>
+</figure>
+
+what is cellpadding and cellspacing?
+Cell Padding: Adds space inside each cell, around its content.
+Cell Spacing: Adds space between the borders of adjacent cells.
+
+
+align-items and align-self differnce?
+align-items : Controls the alignment of all items on the cross axis. align-self : Controls the alignment of an individual flex item on the cross axis.
+
+what is grid-template area?
+grid-template-area is the property of grid container this property can be used as a shorthand to define the areas as well as defining the sizes of the columns and rows. 
+
+what is grid-template-colums?
+thsi property is usded to define number of colums and width of our grid container.
+
+
+What is the difference between '+' and '~' sibling selectors?
++ will only select the first element that is immediately preceded by the former selector. ~ selector all the sibling preceded by the former selector.5 Jul 2016
+
+
+what is opacity?
+The opacity property specifies the opacity/transparency of an element.
+The opacity property can take a value from 0.0 - 1.0. The lower the value, the more transparent:
+
+
+What does flex box do in CSS?
+Flexbox is a one-dimensional layout method for arranging items in rows or columns.
+
+Flexbox provides a powerful and efficient way to create complex layout, align, and distribute space among items in a container, even when their size is unknown or dynamic. This makes it particularly useful for responsive design.
+
+
+
+While you can create flexible and responsive layouts using both Flexbox and Grid, they serve different purposes and excel in different scenarios. Flexbox is more straightforward for simple, linear layouts, while Grid is more powerful for complex, multi-dimensional layouts. 
+
+
+calc() in css ?
+allows you to perform calculations right within your CSS. It
+it returns the value to its nearest integer. 
+ 
+speciacity?
+ speciacity is the algorithm used by browsers to determine the CSS declaration that is the most relevant to an element, which in turn, determines the property value to apply to the element
+speciaficity value of id is:-
+inline css:-1000
+id:-100
+class=10
+element=1
+
+
+what is z-index?
+z-index determine The stack order of the element. it's default value is 0. and heighest z index element will apper on the top.
+z index property can use with position relative absolute only.
+
+
+gird-template-area?
+grid-template-area is a shorthand property of gird-template-rows and grid-template-columns. and in this property we can specify the colums and rows and its height and width.
+The grid-template-areas property specifies areas within the grid layout. You can name grid items by using the grid-area property, and then reference to the name in the grid-template-area.
+
+
+Cascading in css?
+Cascading refers to the process by which styles are applied to HTML elements. It involves a set of rules that tells how conflicting styles are resolved.
+
+
+
+
+
+
+
+
+
+

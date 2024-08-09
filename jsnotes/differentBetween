@@ -1,0 +1,15 @@
+1) append() and appendChild() :---
+append() method is used on particular element that we want to remove.
+appendChild() method is used to remove child of particular parent. It takes parameter as a child that we are going to remove
+this method requre parent element and child.
+
+2) remove() and removeChild()
+The remove() method is used to remove an element from the DOM. It directly operates on the element that needs to be removed.
+The removeChild() method is used to remove a child node from the DOM. It operates on the parent node and takes the child node to be removed as a parameter.
+
+3) replaceWith() and replaceChild()
+requires two nodes as arguments: the new child node and the existing child node to be replaced.
+syntax:--parentelement.replaceChild(newChild, oldChild) 
+
+replaceWith(newContent...) can take multiple arguments, which can be nodes or strings, to replace the element.
+syntax:--element.replaceWith(newelement);

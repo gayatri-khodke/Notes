@@ -1,0 +1,240 @@
+1) what is babel ?
+Babel is a very famous transpiler that basically allows us to use future JavaScript in today’s browsers. In simple words, it can convert the latest version of JavaScript code into the one that the browser understands. Transpiler is a tool that is used to convert source code into another source code that is of the same level. The latest standard version that JavaScript follows is ES2020 which is not fully supported by all browsers hence we make use of a tool such as ‘babel’ so that we can convert it into the code that today’s browser understands
+
+2) what is props?
+Props is a special keyword in React that stands for properties and is used for passing data from one component to another. Data with props are passed in a unidirectional flow from parent to child
+
+what is hook?
+hoooks are added into react in version 16.8
+Hooks in React are functions that let you use state and other React features in functional components. They allow you to "hook into" React's state and lifecycle features without writing a class. The most commonly used hooks are useState for state management and useEffect for side effects.
+
+what is useEffect hook?
+The useEffect Hook allows you to perform side effects in your components.
+Some examples of side effects are: fetching data, directly updating the DOM, and timers , write timer function.
+useEffect accepts two arguments. The second argument is optional.
+useEffect(<function>, <dependency>)
+
+can say that useEffect in React combines the behaviors of mounting, updating, and unmounting lifecycle methods from class components
+Mounting: useEffect runs after the component is first rendered, similar to how componentDidMount works in class components.
+
+Updating: useEffect runs after every re-render, similar to how componentDidUpdate works in class components. You can specify dependencies to control when it runs.
+
+Unmounting: useEffect can return a cleanup function that runs before the component is unmounted or before the effect runs again, similar to how componentWillUnmount works in class components.
+
+
+what is useRef hook?
+useRef is a react hook that allow us to create mutable variables , which will not re-render the component.
+useRef is also used for accessing dom elements directly.
+
+why we need useRef?
+
+different between props and state ?
+props are read -only
+props are immutable we cant change it
+props allow you to pass data from one component to other components as a argument.
+props can be accessed by the child component.
+props are used to communicate between components.
+stateless component can have props. 
+props make components reusable. 
+props are external and controlled by whatever renders the component.
+
+
+state 
+state changes can be asynchronous.
+state is mutable
+state holds information about he components
+state cannot be accessed by child components.
+state can be used for rendering dynamic changes with the components.compilestateless components cannot have statel.staticmethod
+state cannot make components reusable.
+state is internal and it controlled by the react component itself
+
+
+why react uses className over class attribute?
+React uses className instead of class to avoid conflicts with the class keyword in JavaScript. Using className allows React to work seamlessly with JavaScript
+while ensuring code clarity and preventing potential syntax errors.
+
+what is fragments?
+In React, fragments allow you to group multiple elements without adding extra nodes to the DOM. They help keep the DOM clean and avoid unnecessary wrapper elements. Use React.Fragment or the shorthand syntax <>...</>.
+fragments are a bit faster and use less memory by not creating extra dom node while rendering the html elements.exit
+
+what are stateless components>?
+Stateless components in React are components that do not manage or hold any state
+they only receive props and return jsx.
+
+what are the advantages of react ?
+Reusable Components: Build small pieces of UI and reuse them across your app.
+Fast Updates: Only updates parts of the page that change, making it faster.
+Easy to Understand: Clear and simple code that's easier to read and debug.
+Big Community: Lots of resources, tutorials, and libraries available.
+JSX: Combines HTML and JavaScript, making it easier to write UI 
+used virtual dom: it is faster than real dom
+
+
+What is the difference between React and ReactDOM?
+React: Provides the core functionality for building components, handling state, and managing the component lifecycle. It helps you create and structure your user interface.
+ReactDOM: Takes care of rendering React components to the DOM (the web page) and updating the UI when changes occur. It bridges React with the browser’s DOM
+
+
+why we need custom hooks?
+Reuse Logic: Share stateful logic between components without repeating code.
+Organize Code: Keep related logic together, making code more readable and maintainable.
+
+
+why we need of usecontext hook ?
+The useContext hook in React is used to:
+Avoid Prop Drilling: Access data in deeply nested components without passing props down manually at every level.
+Simplify State Management: Share state and functions across the component tree easily.
+Improve Readability: Make code more readable and maintainable by centralizing shared state and logic.
+
+
+what is clouser?
+A closure in JavaScript is a function that can access and use variables from its outer function's scope, even after the outer function has finished executing.
+
+
+how to avoid prop dreeling ?
+5 way:-
+using context api
+using redux
+using component composition
+using callbackfunction
+using custom hooks
+
+
+class components are difined using js classes
+they are stateful components by using the lifecycle methods
+render method is responsible to returning jsx
+
+
+this.props is used in child component to access properties or data that passed from parent componetns
+
+this keyward is used to refer to instance of the class
+
+different between function components and class components
+function components:-
+defined as a js function
+origianily it is stateless but now can maintain state using hooks
+do not have lifecycle method
+do not have this keyword
+do not have render method 
+
+class component:-
+defined as a js class
+can manage local state with this.state
+it has lifecycle methods
+it has this keyward to access props using this.props
+have render method to render jsx 
+
+
+what is routing and router in react ?
+routing :--
+routing allows you to create a single page web application with navigation without the need for a full page refresh.
+
+react router:--
+react router is a library for handling routing and enables navigation and rendering of different components based on the url
+
+
+how to impliment rrouting in react?
+ install react router library
+ npm install react-router-dom
+
+routes:--
+nothing but it is just a container for contains multiples route
+
+route:--
+route is used to define the path 
+
+what is the role fo switch component in react routing
+<switch>
+<Route path=''>
+</switch>
+
+
+what is state?
+In React, state refers to a way to store and manage data within a component that can change over time. State is used to control the component’s behavior and rendering based on user interactions, server responses, or other events.
+
+
+
+features of react?
+jsx
+unidiractionla data flow
+component base
+simplicity
+virtual dom
+
+Element: A simple object representing a DOM node or a component.
+Component: A function or class that can return React elements , jsx.
+it is reusable bit of code that used to create user interface. it manage it state and it has its own lifecycle methods.
+
+
+
+what is pure componet in react?
+React pure components are the components that do not re-render when the value of props and state has been updated with the same values. 
+
+
+what is state in react ?
+The state is a built-in React object that is used to contain data or information about the component. state is just like mutable. A component's state can change over time; whenever it changes, the component re-renders.
+
+
+what is key props?
+ Key prop helps React  to identify which items in the list are changed, updated, or deleted.
+ key props work like a unik identifier to the react element.
+we used key props while rendering the list items in react.
+
+
+what is virtual dom?
+The virtual DOM is a lightweight copy of the real DOM that allows React to manage changes more efficiently in our dom.
+
+The virtual DOM is an in-memory representation of the real DOM elements. Instead of interacting directly with the real DOM, which can be slow down our performance.
+
+
+what is strict mode?
+
+strict mode determin that should js run in strict mode.
+in strict mode undeclared variables function are not allowed.
+
+
+Why use JavaScript strict mode?
+
+eliminates silent errors, enhances performance, disables unsafe features, and makes code more secure and easier to debug.
+
+
+
+
+what is error boundaries in react?
+React components that catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI instead of the component tree that crashed.
+
+
+
+Note that the above example is demonstrating regular JavaScript behavior and doesn’t use error boundaries.
+
+If you need to catch an error inside an event handler, use the regular JavaScript try / catch statement:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
