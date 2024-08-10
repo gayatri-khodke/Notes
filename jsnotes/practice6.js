@@ -27,8 +27,8 @@
 // }
 
 // Access Object Properties -
-// 1. Dot Notation
-// 2. Bracket Notation or Array Notation
+// 1. Dot Notation .
+// 2. Bracket Notation or Array Notation [' ']
 
 // console.log(object1.type);
 // console.log(object1["name"]);

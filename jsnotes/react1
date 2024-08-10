@@ -1,5 +1,6 @@
 1) what is babel ?
-Babel is a very famous transpiler that basically allows us to use future JavaScript in today’s browsers. In simple words, it can convert the latest version of JavaScript code into the one that the browser understands. Transpiler is a tool that is used to convert source code into another source code that is of the same level. The latest standard version that JavaScript follows is ES2020 which is not fully supported by all browsers hence we make use of a tool such as ‘babel’ so that we can convert it into the code that today’s browser understands
+Babel is a very famous transpiler that basically allows us to use future JavaScript in today’s browsers. In simple words, it can convert the latest version of JavaScript code into the one that the browser understands.
+ Transpiler is a tool that is used to convert source code into another source code that is of the same level. The latest standard version that JavaScript follows is ES2020 which is not fully supported by all browsers hence we make use of a tool such as ‘babel’ so that we can convert it into the code that today’s browser understands
 
 2) what is props?
 Props is a special keyword in React that stands for properties and is used for passing data from one component to another. Data with props are passed in a unidirectional flow from parent to child
@@ -195,7 +196,8 @@ in strict mode undeclared variables function are not allowed.
 
 Why use JavaScript strict mode?
 
-eliminates silent errors, enhances performance, disables unsafe features, and makes code more secure and easier to debug.
+eliminates silent errors, enhances performance, disables unsafe features,
+and makes code more secure and easier to debug.
 
 
 

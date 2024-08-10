@@ -1,0 +1,74 @@
+1) what is programming language?
+
+* it is set of instruction ot code which tell our computer what it need to do. 
+* can work stand alone. means it don't need any support of any other language. 
+* every programming language can not be scripting language.
+* programming language can compile or inteprate 
+* java 
+* c , c++ need to compiled before running.
+
+* programming languae can work stand alone. 
+
+* ex :- c, c++, python js, java.
+jvm:-jvm java virtual machine. 
+jdk :-java development kit.
+
+
+2) what is scripting language?
+* every scripting language is basically programming language.
+* scripting language does not include the compilation step. basically it is intepreted.
+* it does not need of compilation. ex python , javascript.
+(inteprete it will check our code line by line if any error occure then the it will throw error and it will not execute further code.)
+js or php dont need to compiled.
+* in most cases it work as a stand alone as well as it work combine with other langaue.
+
+* ex python , javascript , php, pul, rubi,
+
+
+3) what is markup language?
+is is completely different from programming language and scripting language. it prepare the structure data or prepare the look or design of the page.
+* it is also stand alone language. 
+* it is prasentational language. it prasent our web page on browser. can not manipulate the thing.  if we want to manipulate then we need to used scription languae.
+* ex html ,css Xml
+
+
+
+*** generally compiled programs run faster thean interpreted program. because they first converted native machine code. also compilers read and analyze the code only once, report the error. 
+
+where as interpreter will read and analyze the code statements each time. 
+
+4) different between compiler and transpiler?
+* transpiler:- converts source code from one programming language to another programming language.
+ex babel transpile the jsx into javascript that browser can understand.
+
+
+* compiler:- translates source code into machine code.  ex high level programming language to low level programming. 
+
+
+5)  what is procedural programming language?
+* procedural programming uses a very detailed list of instructions to tell the computer what to do step by step. This approach can repeat the series of steps as often as needed.
+
+
+6)  what is funciton programming language?
+function programming is an approach to problem solving that treats every 
+
+
+python is a multi-paradigm programming language.
+it support ot oop , programming language, structured programming languae.
+
+
+7) what is garbage collection?
+
+
+type of inheritance in python?
+
+
+
+
+
+
+
+
+
+
+
